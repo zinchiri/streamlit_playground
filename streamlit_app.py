@@ -3,7 +3,6 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 from langchain.llms import OpenAI
-
 ### customize your title here ###
 st.title('🦜🔗 My first App')
 
